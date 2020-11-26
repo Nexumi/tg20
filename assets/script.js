@@ -25,7 +25,7 @@ function load() {
 	function gwak() {
 		if (time >= 1606377600000 && time < 1606464000000) {
 			scream[0].volume = 0.35
-			scream[1].volume = 0.35
+			scream[1].volume = 0.25
 			cluck.style.display = "block"
 			setTimeout(function(){scream[0].play();}, 500);
 			setTimeout(function(){clack[0].style.display = "block"; clack[0].classList.toggle("show");}, 5000);
