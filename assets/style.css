@@ -10,26 +10,6 @@ body {
     text-align: center;
 }
 
-.turkey {
-	display: none;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	margin-left: -232px;
-	margin-top: -300px;
-	animation: turkey 0.5s forwards;
-}
-
-@keyframes turkey {
-	0% {
-		transform: scale(11); rotate(15deg);
-	}
-
-	100% {
-		transform: scale(0.75) rotate(15deg);
-	}
-}
-
 .dot{
   width: 35px;
   height: 35px;
@@ -61,6 +41,26 @@ body {
     100% {
         background-position: 341.100px;
     }
+}
+
+.turkey {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -232px;
+	margin-top: -300px;
+	animation: turkey 0.5s forwards;
+}
+
+@keyframes turkey {
+	0% {
+		transform: scale(11); rotate(15deg);
+	}
+
+	100% {
+		transform: scale(0.75) rotate(15deg);
+	}
 }
 
 .all h1 {
