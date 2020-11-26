@@ -158,10 +158,11 @@ body {
 .broken {
 	display: none;
 	position: fixed;
-	top: 100%;
+	top: 95%;
 	left: 50%;
-	width: 600px;
-	margin-top: -191.675px;
-	margin-left: -300px;
+	width: 650px;
+	font-size: 12px;
+	margin-top: -107.350px;
+	margin-left: -325px;
 	font-family: 'Texturina', serif;
 }
