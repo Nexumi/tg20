@@ -4,7 +4,8 @@ var boom = document.getElementsByClassName("kaboom")[0];
 var scream = document.getElementsByClassName("gwak")[0];
 var cluck = document.getElementsByClassName("turkey")[0];
 var clack = document.getElementsByClassName("text");
-var bye = document.getElementsByClassName("note")[0]
+var bye = document.getElementsByClassName("note")[0];
+var nope = document.getElementsByClassName("broken")[0];
 
 function check() {
 	if (time < 1606377600000 || time >= 1606464000000) {
@@ -39,10 +40,12 @@ function load() {
 			setTimeout(function(){clack[5].style.display = "block"; clack[5].classList.toggle("show");}, 70000);
 			setTimeout(function(){boom.style.display = "block"}, 74000);
 			setTimeout(function(){window.close()}, 75000);
+			setTimeout(function(){nope.style.display = "block"}, 76000);
 		} else {
 			setTimeout(function(){bye.style.display = "block"; bye.classList.toggle("show")}, 1000);
 			setTimeout(function(){boom.style.display = "block"}, 4000);
 			setTimeout(function(){window.close()}, 5000);
+			setTimeout(function(){nope.style.display = "block"}, 6000);
 		}
 	}
 }
@@ -65,4 +68,5 @@ function backup() {
 	setTimeout(function(){clack[5].style.display = "block"; clack[5].classList.toggle("show");}, 70000);
 	setTimeout(function(){boom.style.display = "block"}, 74000);
 	setTimeout(function(){window.close()}, 75000);
+	setTimeout(function(){nope.style.display = "block"}, 76000);
 }
