@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+ 	overflow:hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: radial-gradient(#F3AB17, #DA5C29);
+    user-select: none;
+}
+
+.turkey {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -232px;
+	margin-top: -300px;
+	animation: turkey 0.5s forwards;
+}
+
+@keyframes turkey {
+	0% {
+		transform: scale(11); rotate(15deg);
+	}
+
+	100% {
+		transform: scale(0.75) rotate(15deg);
+	}
+}
+
+.dot{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+  background-size: 100% 100%;
+}
+
+.load {
+    top: 50%;
+    left: 50%;
+    margin-left: -170.550px;
+    margin-top: -60px;
+    position: fixed;
+    font-size: 96px;
+    cursor: grab;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    background-image: linear-gradient(135deg, #FACD00, #F69B0C, #D46B0B, #EB4E00, #D4300B, #F6160C, #FACD00, #F69B0C, #D46B0B);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+      background-position: 0px;
+    }
+
+    100% {
+        background-position: 341.100px;
+    }
+}
+
+.all h1 {
+	display: none;
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	font-size: 52px;
+	margin-top: -30px;
+	text-align: center;
+	font-family: 'Texturina', serif;
+}
+
+.all h1:nth-of-type(1) {
+	margin-left: -192.6875px;
+}
+
+.all h1:nth-of-type(2) {
+	margin-left: -111.025px;
+}
+
+.all h1:nth-of-type(3) {
+	margin-left: -323.831px;
+}
+
+.all h1:nth-of-type(4) {
+	margin-left: -175.194px;
+}
+
+.all h1:nth-of-type(5) {
+	margin-left: -242.400px;
+}
+
+.all h1:nth-of-type(6) {
+	margin-left: -157.850px;
+}
+
+.show {
+    animation: show 2s linear forwards;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0.75;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.hide {
+	animation: hide 2s linear forwards;
+}
+
+@keyframes hide {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.75;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.note {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 750px;
+	font-size: 32px;
+	margin-top: -150px;
+	margin-left: -375px;
+	text-align: center;
+	font-family: 'Texturina', serif;
+}
+
+.kaboom {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: scale(5);
+	margin-top: -120px;
+	margin-left: -100px;
+}
