@@ -58,7 +58,7 @@ function backup() {
 	scream[0].volume = 0.35
 	scream[1].volume = 0.25
 	cluck.style.display = "block"
-	setTimeout(function(){scream.play();}, 500);
+	setTimeout(function(){scream[0].play();}, 500);
 	setTimeout(function(){clack[0].style.display = "block"; clack[0].classList.toggle("show");}, 5000);
 	setTimeout(function(){clack[0].classList.toggle("hide");}, 23000);
 	setTimeout(function(){clack[1].style.display = "block"; clack[1].classList.toggle("show");}, 25000);
